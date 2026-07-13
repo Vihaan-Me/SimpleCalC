@@ -32,3 +32,9 @@
         }
         return std::sqrt(value);
     }
+    double Calculator::modulus(double a, double b) {
+        if (b == 0) {
+            throw std::invalid_argument("Modulus by zero is not allowed.");
+        }
+        return std::fmod(a, b);
+    }

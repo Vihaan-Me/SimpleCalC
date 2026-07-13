@@ -8,4 +8,5 @@ public:
     double divide(double a, double b);
     double power(double base, double exponent);
     double squareRoot(double value);
+    double modulus(double a, double b);
 };
