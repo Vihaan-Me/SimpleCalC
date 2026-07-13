@@ -1,0 +1,10 @@
+^C:\USERS\SHREY\ENHANCINGMYSKILLS\CALCULATORPROJECT\BUILD\CMAKEFILES\BDC8B1CF60329FA26CAA98E44E6C440A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shrey/EnhancingMySkills/CalculatorProject -BC:/Users/shrey/EnhancingMySkills/CalculatorProject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/shrey/EnhancingMySkills/CalculatorProject/build/CalculatorProject.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
