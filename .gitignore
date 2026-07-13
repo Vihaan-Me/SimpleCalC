@@ -1,0 +1,25 @@
+# Build directory
+build/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+
+# Executables
+*.exe
+*.out
+
+# Object files
+*.obj
+*.o
+
+# Debug files
+*.pdb

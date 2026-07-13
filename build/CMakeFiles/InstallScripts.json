@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/shrey/EnhancingMySkills/CalculatorProject/build/cmake_install.cmake",
-		"C:/Users/shrey/EnhancingMySkills/CalculatorProject/build/tests/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
