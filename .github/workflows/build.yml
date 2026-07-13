@@ -26,4 +26,4 @@ jobs:
 
       working-directory: build
 
-      run: ./test_calculator
+      run: test_calculator
