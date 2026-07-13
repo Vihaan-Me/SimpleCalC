@@ -27,8 +27,8 @@ cmake --build .
 
 ## Run
 
-calculator_app
+calculatorProject
 
 ## Run Tests
 
-ctest
+test_calculator
